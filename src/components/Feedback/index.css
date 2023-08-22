@@ -1,0 +1,82 @@
+/* Write your CSS code here. */
+.bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffebeb, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feedback-container {
+  height: 45%;
+  width: 40%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 500;
+  font-family: roboto;
+  color: #0f172a;
+  margin-top: 26px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.list-item {
+  height: 150px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  border: 0;
+  outline: none;
+}
+.image {
+  height: 80px;
+  width: 80px;
+}
+.name {
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 600;
+  color: #1e293b;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.love-image {
+  height: 50px;
+  width: 60px;
+}
+.thankyou-heading {
+  font-family: roboto;
+  font-weight: 500;
+  color: #0f172a;
+  text-align: center;
+}
+
+.description {
+  font-family: roboto;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
